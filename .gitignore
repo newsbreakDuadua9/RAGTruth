@@ -162,3 +162,5 @@ cython_debug/
 
 models/model_file/merged/*
 !models/model_file/merged/.gitkeep
+infer_res/*
+!infer_res/.gitkeep
