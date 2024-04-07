@@ -206,7 +206,9 @@ bash step1_lora_merge.sh
 
 To activate the TGI service for accessing our model, execute:
 ```
-bash step2_TGI.sh
+bash step2_TGI.sh YOUR_GPU_ID CONTAINER_NAME
+
+eg: bash step2_TGI.sh 0 test_ragtruth
 ```
 You can view the service's log file here:
 ```
